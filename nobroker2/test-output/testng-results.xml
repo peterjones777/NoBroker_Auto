@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-05T22:36:33 IST" name="Default suite" finished-at="2022-09-05T22:37:21 IST" duration-ms="47899">
+  <suite started-at="2022-09-05T23:23:00 IST" name="Default suite" finished-at="2022-09-05T23:23:51 IST" duration-ms="50341">
     <groups>
     </groups>
-    <test started-at="2022-09-05T22:36:33 IST" name="Default test" finished-at="2022-09-05T22:37:21 IST" duration-ms="47899">
+    <test started-at="2022-09-05T23:23:00 IST" name="Default test" finished-at="2022-09-05T23:23:51 IST" duration-ms="50341">
       <class name="noBroker_TestCases.MAIN">
-        <test-method is-config="true" signature="Initiate()[pri:0, instance:noBroker_TestCases.MAIN@48f2bd5b]" started-at="2022-09-05T22:36:33 IST" name="Initiate" finished-at="2022-09-05T22:36:49 IST" duration-ms="16255" status="PASS">
+        <test-method is-config="true" signature="Initiate()[pri:0, instance:noBroker_TestCases.MAIN@a1153bc]" started-at="2022-09-05T23:23:00 IST" name="Initiate" finished-at="2022-09-05T23:23:14 IST" duration-ms="13932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initiate -->
-        <test-method signature="Buy()[pri:1, instance:noBroker_TestCases.MAIN@48f2bd5b]" started-at="2022-09-05T22:36:49 IST" name="Buy" finished-at="2022-09-05T22:36:50 IST" duration-ms="408" status="PASS">
+        <test-method signature="Buy()[pri:1, instance:noBroker_TestCases.MAIN@a1153bc]" started-at="2022-09-05T23:23:14 IST" name="Buy" finished-at="2022-09-05T23:23:15 IST" duration-ms="709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Buy -->
-        <test-method signature="SelectCity(int)[pri:2, instance:noBroker_TestCases.MAIN@48f2bd5b]" started-at="2022-09-05T22:36:50 IST" name="SelectCity" data-provider="bhk" finished-at="2022-09-05T22:37:01 IST" duration-ms="10949" status="PASS">
+        <test-method signature="SelectCity(int)[pri:2, instance:noBroker_TestCases.MAIN@a1153bc]" started-at="2022-09-05T23:23:15 IST" name="SelectCity" data-provider="bhk" finished-at="2022-09-05T23:23:26 IST" duration-ms="10837" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectCity -->
-        <test-method signature="AssignStreet(int)[pri:3, instance:noBroker_TestCases.MAIN@48f2bd5b]" started-at="2022-09-05T22:37:01 IST" name="AssignStreet" data-provider="bhk" finished-at="2022-09-05T22:37:04 IST" duration-ms="3415" status="PASS">
+        <test-method signature="AssignStreet(int)[pri:3, instance:noBroker_TestCases.MAIN@a1153bc]" started-at="2022-09-05T23:23:26 IST" name="AssignStreet" data-provider="bhk" finished-at="2022-09-05T23:23:28 IST" duration-ms="2081" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AssignStreet -->
-        <test-method signature="AssignStreet(int)[pri:3, instance:noBroker_TestCases.MAIN@48f2bd5b]" started-at="2022-09-05T22:37:04 IST" name="AssignStreet" data-provider="bhk" finished-at="2022-09-05T22:37:06 IST" duration-ms="1606" status="PASS">
+        <test-method signature="AssignStreet(int)[pri:3, instance:noBroker_TestCases.MAIN@a1153bc]" started-at="2022-09-05T23:23:28 IST" name="AssignStreet" data-provider="bhk" finished-at="2022-09-05T23:23:32 IST" duration-ms="3660" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,11 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AssignStreet -->
-        <test-method signature="SelectBHK()[pri:4, instance:noBroker_TestCases.MAIN@48f2bd5b]" started-at="2022-09-05T22:37:06 IST" name="SelectBHK" finished-at="2022-09-05T22:37:07 IST" duration-ms="1092" status="PASS">
+        <test-method signature="SelectBHK()[pri:4, instance:noBroker_TestCases.MAIN@a1153bc]" started-at="2022-09-05T23:23:32 IST" name="SelectBHK" finished-at="2022-09-05T23:23:32 IST" duration-ms="425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectBHK -->
-        <test-method signature="AssignBHK(int)[pri:5, instance:noBroker_TestCases.MAIN@48f2bd5b]" started-at="2022-09-05T22:37:07 IST" name="AssignBHK" data-provider="bhk" finished-at="2022-09-05T22:37:08 IST" duration-ms="896" status="PASS">
+        <test-method signature="AssignBHK(int)[pri:5, instance:noBroker_TestCases.MAIN@a1153bc]" started-at="2022-09-05T23:23:32 IST" name="AssignBHK" data-provider="bhk" finished-at="2022-09-05T23:23:33 IST" duration-ms="430" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AssignBHK -->
-        <test-method signature="AssignBHK(int)[pri:5, instance:noBroker_TestCases.MAIN@48f2bd5b]" started-at="2022-09-05T22:37:08 IST" name="AssignBHK" data-provider="bhk" finished-at="2022-09-05T22:37:09 IST" duration-ms="1015" status="PASS">
+        <test-method signature="AssignBHK(int)[pri:5, instance:noBroker_TestCases.MAIN@a1153bc]" started-at="2022-09-05T23:23:33 IST" name="AssignBHK" data-provider="bhk" finished-at="2022-09-05T23:23:34 IST" duration-ms="881" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,14 +74,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AssignBHK -->
-        <test-method signature="searchbutton()[pri:6, instance:noBroker_TestCases.MAIN@48f2bd5b]" started-at="2022-09-05T22:37:09 IST" name="searchbutton" finished-at="2022-09-05T22:37:10 IST" duration-ms="1652" status="PASS">
+        <test-method signature="searchbutton()[pri:6, instance:noBroker_TestCases.MAIN@a1153bc]" started-at="2022-09-05T23:23:34 IST" name="searchbutton" finished-at="2022-09-05T23:23:40 IST" duration-ms="6454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchbutton -->
-        <test-method signature="FourthElement()[pri:7, instance:noBroker_TestCases.MAIN@48f2bd5b]" started-at="2022-09-05T22:37:10 IST" name="FourthElement" finished-at="2022-09-05T22:37:21 IST" duration-ms="10471" status="PASS">
+        <test-method signature="FourthElement()[pri:7, instance:noBroker_TestCases.MAIN@a1153bc]" started-at="2022-09-05T23:23:40 IST" name="FourthElement" finished-at="2022-09-05T23:23:49 IST" duration-ms="9234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FourthElement -->
+        <test-method is-config="true" signature="ExitBrowser()[pri:0, instance:noBroker_TestCases.MAIN@a1153bc]" started-at="2022-09-05T23:23:49 IST" name="ExitBrowser" finished-at="2022-09-05T23:23:51 IST" duration-ms="1479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExitBrowser -->
       </class> <!-- noBroker_TestCases.MAIN -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

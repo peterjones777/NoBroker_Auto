@@ -3,12 +3,14 @@ package noBroker_TestCases;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import noBroker_Library.Pause;
 import noBroker_TestClasses.BHK;
 import noBroker_TestClasses.City;
+import noBroker_TestClasses.CloseBrowser;
 import noBroker_TestClasses.FourthProperty;
 import noBroker_TestClasses.Initialize;
 import noBroker_TestClasses.Search;
@@ -25,6 +27,7 @@ public class MAIN {
 	 	FourthProperty prop;
 	 	BHK assign;
 	 	Street assignStreet;
+	 	CloseBrowser close;
 @BeforeTest
 public void Initiate()  {
 	
@@ -94,7 +97,11 @@ public void searchbutton() {
  //*****VALIDATING DECRIPTION
  Pause.stop(driver, 7);
  prop.validate();
-
+}
+@AfterTest
+public void ExitBrowser() {
+	close=new CloseBrowser(driver);
+	close.end();
 
 
 }}
