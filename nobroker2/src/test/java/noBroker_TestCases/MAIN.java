@@ -60,7 +60,7 @@ public void AssignStreet(int n) {
 
 	assignStreet.Search();
 Pause.stop(driver, 5);
- Assert.assertEquals(assignStreet.waitfor( 5),"Dropdown Elements visible can proceed");
+ Assert.assertEquals(assignStreet.waitfor( 20),"Dropdown Elements visible can proceed");
 	System.out.print(n);
 	assignStreet.chooseStreetSuggestion(n); //chooses options in drop down menue
 }

@@ -50,7 +50,7 @@ public class FourthProperty {
 		 Assert.fail("oops.. no description");
 	 }
 	 else
-		 System.out.println("description avaliable with "+ p + " characters");
+		 System.out.println("SUCCESS!!! description avaliable with "+ p + " characters");
 	 {
 }
 	 }
