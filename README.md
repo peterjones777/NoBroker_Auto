@@ -1,4 +1,9 @@
 # NoBroker_Auto
+FRAMEWORK: TestNG PAGE OBJECT MODEL WITHOUT PAGEFACTORY
+BROWSER:Chrome
+ver:(MAVEN dependecies)
+
+
 integer codes to change parameters usind DataProviders-
 For BHK :
 1.1RK 
